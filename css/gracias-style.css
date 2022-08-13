@@ -1,0 +1,57 @@
+:root{
+    --primary-color: #ffb7e3;
+    --secundary-color: #853265;
+    --red: #cc0000;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 700px;
+}
+
+.container__title{
+    color: var(--secundary-color);
+}
+
+.text-color{
+    color: var(--secundary-color);
+}
+
+@media screen and (min-width: 570px){
+
+    .container{
+        padding: 20px;
+    }
+
+    .container__title{
+        font-size: 36px;
+    }
+
+    .container__sub-title, .container__text{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 770px){
+
+    .container{
+        padding: 40px;
+    }
+
+    .container__title{
+        font-size: 40px;
+    }
+
+    .container__sub-title, .container__text{
+        font-size: 25px;
+    }
+}
